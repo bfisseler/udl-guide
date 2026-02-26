@@ -1,0 +1,432 @@
+---
+title: Universal Design for Learning (UDL) im Fachunterricht Geschichte
+subtitle: Vortrag im Rahmen des Workshops "Historisches Lernen im Universal Design for Learning und Mehrebenensystemen"
+description: Eine ...
+author: 
+  - name: Dr. Björn Fisseler
+    email: bjoern.fisseler@fernuni-hagen.de
+    url: https://www.fernuni-hagen.de/psychologie/fakultaet/dekanat/bjoern-fisseler.shtml
+    orcid: 0000-0002-8178-7479
+    affiliation: FernUniversität in Hagen
+    affiliation-url: https://www.fernuni-hagen.de
+citation:
+  type: speech
+  event-title: "Historisches Lernen im Universal Design for Learning und
+Mehrebenensystemen"
+  doi: "10.5281/zenodo.18782438"
+  url: https://doi.org/10.5281/zenodo.18782438
+format: 
+    revealjs:
+        theme: [default, additional_styling.css]
+        transition: slide
+        background-transition: zoom
+        height: 1200
+        width: 1600
+        margin: 0.05
+        slide-number: true
+        code-block-height: 800px
+        footer: "Universal Design for Learning (UDL) im Fachunterricht Geschichte"
+        lang: de
+        multiplex: false
+        embed-resources: true
+        touch: true
+        controls: true
+        include-in-header: 
+          text: |
+            <style>
+            .v-center-container {
+              display: flex;
+              align-items: center;
+              height: 90%;
+            }
+            </style>
+project:
+  type: website
+  output-dir: docs
+editor: source
+bibliography: ../../../Publikationen/my_zotero.bib
+csl: ../../../Publikationen/csl_styles/apa.csl
+---
+
+## Vorstellung
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Dr. Björn Fisseler**
+
+- Studium der Sonderpädagogik, Referendariat
+- Doktor der Rehabilitationswissenschaften
+- Aktuell
+  - FernUniversität in Hagen, Fakultät für Psychologie
+  - Spezialist für Bildungstechnologie
+- Forschungs- und Arbeitsthemen
+  - Barrierefreiheit und Universal Design
+  - Lernende mit gesundheitlichen Beeinträchtigungen
+  - Inklusive digitale Bildung
+  - Bildungstechnologie und KI
+- Fragen? Gerne per [Mail an bjoern.fisseler@fernuni-hagen.de](mailto:bjoern.fisseler@fernuni-hagen.de)
+
+:::
+
+::: {.column width="50%"}
+
+![Foto: Hardy Welsch](assets/profil.jpg){fig-alt="Porträt Björn Fisseler, ein mittelalter Mann mit grauen Haaren lächtelt in die Kamera, trägt ein Sakko und ein weißes Hemd"}
+
+:::
+
+::::
+
+## Überblick
+
+:::{.v-center-container}
+- Historischer Überblick zur Entwicklung des UDL 
+- Überblick UDL 
+- UDL in Relation zu schulischem Unterricht 
+- Verbindungen zwischen Aspekten des Fachunterrichts Geschichte und UDL 
+
+[![Folien](./assets/zenododoi.png)](https://doi.org/10.5281/zenodo.18782437)
+
+:::
+
+## Das Durchschnittsproblem
+
+::: {.r-stack}
+![](./assets/cockpit.jpg){.fragment .fade-in-then-out fig-align="center" fragment-index="1" fig-alt="Innenansicht eines alten Flugzeugcockpits, Blick über die Sitze, Steuerelemente und Instrumente hinweg"}
+
+![Wo befinden sich die Lernenden in dieser Verteilung?](./assets/gausskurve.png){.fragment fig-alt="Gausssche Normalverteilung, Standardabweichungen sind aufgetragen" .fade-in fig-align="center" fragment-index="2"}
+:::
+
+## Ein kurzer Abriss des Universal Design
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment fragment-index="1"}
+- Nach dem 2. Weltkrieg
+  - Versorgung der Veteranen mit Hilfsmitteln und Assistiven Technologien
+  - Ziel: keine Abhängigkeit von Wohlfahrt und Gesundheitsfürsorge, sondern *eigenständige Teilhabe an Bildung und Arbeit*
+:::
+:::{.fragment fragment-index="2"}
+- 1960er Jahre
+  - Zunehmende gesetzliche Regelungen und Standardisierung
+  - Aufkommen der Behindertenrechtsbewegung; gleiche Rechte für alle
+  - Überwindung der Dichotomisierung
+:::
+
+:::
+
+::: {.column width="50%"}
+
+:::{.fragment fragment-index="2"}
+- 1968: Architectural Barriers Act
+- 1973: Section 504 of Rehabilitation Act
+- 1975: Education for Handicapped Children Act, jetzt: Individuals with Disabilities Education Act (IDEA)
+- 1988: Fair Housing Amendments Act 
+- 1990: Americans with Disabilities Act
+- 1996: Telecommunications Act
+- 1998: Section 508 of Rehabilitation Act
+:::
+
+:::
+
+::::
+
+## Universal Design als Reaktion auf gesellschaftliche Entwicklungen
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Herausforderungen von Standards
+
+::: {.fragment fragment-index="1"}
+- Einschränkungen des Gestaltungsspielraums durch feste Vorgabe
+:::
+:::{.fragment fragment-index="2"}
+- Dichotomisierung: Wir - Ihr
+:::
+:::{.fragment fragment-index="3"}
+- Keine gesellschaftlichen Veränderungen
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### Universal Design als Versuch einer Antwort{.smaller}
+
+::: {.fragment fragment-index="1"}
+- Gestaltungsprinzipien eröffnen Gestaltungsspielräume
+:::
+:::{.fragment fragment-index="2"}
+- Inklusion: Menschen mit Behinderung als Teil der Gesellschaft
+:::
+:::{.fragment fragment-index="3"}
+- Universal Design als gesellschaftliches Dispositiv
+  - Demographische Entwicklung
+  - Heterogenität, Diversität
+  - Globalisierung
+:::
+
+:::
+
+::::
+
+## Universal Design als inklusiver Gestaltungsansatz
+
+:::{.r-stack}
+:::{.fragment .fade-in-then-out}
+### Gängiges Retrofitting
+![Nachträglich an der Rückseite aufgebaute Rampe](./assets/retrofit.png){.nostretch fig-alt="Hölzerne Rampe an der Rückseite eines älteren Gebäudes" fig-align="center" width="30em"}
+:::
+:::{.fragment .fade-in}
+### Universal Design
+
+![Gebäudeaufgang an der UC Berkeley](./assets/ud_stairs.jpg){.r-stretch fig-alt="Aufgang mit Rampe und Treppen integriert, gemäß Universal Design, aufgenommen in der Abenddämmerung, zwei Personen nutzen die Treppen" fig-align="center"}
+:::
+:::
+
+## Universal Design in der Bildung
+
+- Universal Instructional Design: Silver et al., 1998
+- Universal Design in Education: Bowe, 2000
+- Universal Design for Learning: Rose, Meyer, 2002
+- Universal Design for Instruction: Scott et al., 2003
+- Universal Course Design: Behling, Hart, 2009
+- Universal Design University: Powell, 2012
+- Universally Designed Higher Education: Burgstahler, 2020
+
+## Was ist Universal Design for Learning (UDL)?
+
+> We shifted our emphasis to address the disabilities of schools rather than students and coined a name for this approach: Universal Design for Learning, or UDL. [@meyerUniversalDesignLearning2014a]
+
+UDL ist ein Rahmenkonzept zur Verbesserung und Optimierung des Lehrens und Lernens. Lehrende stehen täglich vor der Herausforderung, Unterricht für verschiedene Lernende zu planen. Mit den UDL-Prinzipien ist es möglich, auf diese Variabilität zu reagieren.
+
+- Nicht das Individuum soll verändert werden, sondern Schule und Unterricht - soziale Modell von Behinderung
+- Greift zurück auf Erkenntnisse der Neurowissenschaften und der Lehr-Lernforschung
+- Nutzung von digitalen Technologien und barrierefreier Materialien
+- Gestaltung von Lernangeboten mit flexiblen Optionen für unterschiedlichste Bedarfe von Lernenden
+
+> Ziel des UDL die die Gestaltung von Lernumgebungen, damit alle SuS zu fachkundigen Lernenden werden können!
+
+## Das UDL-Rahmenkonzept
+
+Ziel: Handlungsfähigkeit der Lernenden (learner agency)
+
+- Aktive Lernende wissen, was, warum und wie sie lernen
+- UDL liefert Anregungen zur Gestaltung von flexiblen und effektiven Lernangeboten, die
+  - Lernende inspirieren und motivieren (was/what)
+  - vielfältige Perspektiven bieten, Sinn stifen und helfen, das eigene Lernen zu gestalten (warum/why)
+  - Möglichkeiten zur Zielsetzung bieten und helfen, Lernfortschritte zu überprüfen (wie/how)
+- UDL ist nicht präskriptiv, es ist keine Checkliste oder Formel mit festen Methoden und Werkzeugen
+
+[Quelle: @meyerUniversalDesignLearning2024]
+
+## UDL verändert sich
+
+- Veränderungen in der Theorie und Praxis von UDL 
+  - Offenere Formulierung von Lernzielen: bspw. "Erschaffe eine Erzählung" statt "Schreibe eine Geschichte"
+  - Orientierung an der Variabilität von Lernenden statt an den Unterschieden einzelner Lernenden 
+  - Individum-Umwelt-Interaktionen statt individueller Interaktionen
+- Veränderung der Umgebung von UDL 
+  - Starke Einbindung in Bundesgesetze in den USA: Higher Education Opportunity Act (HEOA), National Education Technology Plan
+  - Stärkere Verbreitung der Idee des UDL über das Internet und weltweite Netzwerke 
+- Veränderung von Medien
+  - Weniger Print, mehr digitale Materialien 
+
+## Neurowissenschaftliche Grundlagen des UDL 
+
+![](./assets/udlnetworks.png){fig-align="center" fig-alt="Drei stilisierte Gehirne nebeneinander, jeweils unterschiedliche Bereiche farbig hervorgehoben, von links nach rechts, affektives Netzwerk, Engagement, Wahrnehmungsnetzwerk, Representation, strategisches Netzwerk, Action and Expression"}
+
+[@meyerUniversalDesignLearning2024]
+
+Ziele
+
+- Design von Lernangeboten, die für alle Lernenden zugänglich und herausfordernd sind.
+- Alle Lernenden sollen „expert learner“ – fachkundige Lernende werden.
+
+
+## UDL-Prinzipien im Überblick
+
+Das UDL-Rahmenkonzept setzt sich zusammen aus drei Prinzipien, neun Richtlinien und detaillierten Empfehlungen. Es ist aber *keine* Checkliste.
+
+![](./assets/udl_guidelines3.png){fig-align="center" fig-alt="Tabellarische Darstellung der Prinzipien des Universal Design for Learning"}
+
+[Quelle: @incUDLGuidelines]
+
+## Kernkomponenten zur Gestaltung von UDL-Lernumgebungen
+
+- *Ziele*: klare und transparente Ziele formulieren, die auf verschiedenen Wegen erreicht werden können
+- *Lernstandskontrollen*: flexible Überprüfung des Lernerfolgs, auf die Lernziele ausgerichtet, mit flexiblen Optionen
+- *Lernmaterialien*: flexible und barrierefreie Lernmaterialien, auswählbar durch die Lernenden, ausgerichtet auf die Lernziele
+- *Lehr-Lernmethoden*: flexiblel und vielfältig, lernzielorientierte Methoden, welche die SuS informiert auswählen können 
+- Lernumgebung: physischer und/oder virtueller Raum, der flexibel nutzbar ist und idealerweise von dehn Lernenden mitgestaltet wird
+
+[@meyerUniversalDesignLearning2024, Kapitel 5]
+
+## Ist UDL ein didaktisches Modell?
+
+> Ein didaktisches Modell gibt idealerweise Antworten auf die Frage, *wer*, *was*, *wo*, *wann*, *wie*, *warum* und *womit* lernt.
+
+UDL ist eher ein didaktisches Rahmenkonzept, das als eine Art Blaupause über Unterricht und Lehr-Lernangebote gelegt werden kann.
+
+UDL ...
+
+- ... macht keine Aussagen über die Auswahl der Bildungsinhalte.
+- ... beinhaltet nur implizite Annahmen darüber, wie SuS lernen.
+- ... formuliert keine Förderempfehlungen zur Lern- und Entwicklungsplanung.
+
+Aber UDL kann bei der unterrichtlichen Differenzierung helfen, Leistungs- und Beurteilungsmaßstäbe einordnen und als Baustein einer Feedback-Kultur genutzt werden.
+
+## UDL - ist das nicht einfach guter Unterricht? {.smaller}
+
+> In Anlehnung an Burgstahler: Every universally designed instruction is good teaching, but not all good teaching is universally designed.
+
+Wie passt UDL zu den Qualitätsmerkmalen guten Unterrichts [@meyerWasIstGuter2024]?
+
+::: {.incremental}
+1. Klare Strukturierung &rarr; [6.1 Set meaningful goals](https://udlguidelines.cast.org/action-expression/strategy-development/goals/), [3. Building Knowledge](https://udlguidelines.cast.org/representation/building-knowledge/)
+2. Hoher Anteil echter Lernzeit &rarr; Zugänglichkeit und Nutzbarkeit durch UDL als Gewinn von Lehrzeit
+3. Lernförderliches Klima &rarr; ist das Gesamtziel von UDL
+4. Inhaltliche Klarheit &rarr; gesamte Prinzip ["Multiple Means of Representation"](https://udlguidelines.cast.org/representation/)
+5. Sinnstiftendes Kommunizieren &rarr; [8.3 Foster collaboration ...](https://udlguidelines.cast.org/engagement/effort-persistence/collaboration/), [9.2 Awareness of self and others](https://udlguidelines.cast.org/engagement/emotional-capacity/awareness/)
+6. Methodentiefe und Methodenvielfalt &rarr; Prinzipien [Engagement](https://udlguidelines.cast.org/engagement/) sowie [Action & Expression](https://udlguidelines.cast.org/action-expression/)
+7. Individuelles Fördern im gemeinsamen Unterricht &rarr; [6.5 Challenge exclusionary practices](https://udlguidelines.cast.org/action-expression/strategy-development/exclusionary-practices/), [8.2 Optimize challenge and support](https://udlguidelines.cast.org/engagement/effort-persistence/challenge-support/)
+8. Intelligentes Üben &rarr; [5.3 Graduated support for practice and performance](https://udlguidelines.cast.org/action-expression/expression-communication/fluencies-practice-performance/)
+9. Transparente Leistungserwartungen und -rückmeldungen &rarr; [8.1 - Clarify meaning and goals](https://udlguidelines.cast.org/engagement/effort-persistence/meaning-purpose-goals/)
+10. Vorbereitete Umgebung - ist das Gesamtziel von UDL
+:::
+
+## Digitale Werkzeuge und digitale Barrierefreiheit
+
+[@fisselerInklusiveDigitalisierungUniversal2020]
+
+- Digitale Werkzeuge für das Lernen gehören zum Kern des UDL!
+  - als individuelle Assistive Technologien
+  - als inhaltliches Medium und Werkzeug zur Lernbegleitung
+- Sie unterstützen die Umsetzung der verschiedenen UDL-Prinzipien - individuell und für alle Lernenden
+- Gleichzeitig sollten die Lernmaterialien barrierefrei sein
+
+![](./assets/AEM.png){fig-align="center" fig-alt="Bildschirmfoto der Webseite des National Center on Accessible Educational Materials"}
+
+## Empirische Befunde zum inklusiven Geschichtsunterricht, Folie 1 von 2
+
+Quelle: [@barschEmpiricalFindingsHistorical2025]
+
+- Herausforderungen des Zugangs zu verschiedenen Medienformen historischen Lernens &rarr; Prinzip ["Representation"](https://udlguidelines.cast.org/representation/)
+  - Mündliche und andere auditive Quellen &rarr; [1.2 Support multiple ways to perceive information](https://udlguidelines.cast.org/representation/perception/ways-perceive-information/), [1.3 Diversity of perspectives and identities](https://udlguidelines.cast.org/representation/perception/perspectives-identities/)
+  - Schriftliche Quellen werden sprachlich adaptiert, bspw. Einfache Sprache oder Leichte Sprache
+  - Was ist mit bildlichen Quellen?
+- Lehrmethoden
+  - direkte Instruktion zum Erwerb deklarativen Wissens
+  - nicht-textuelle und nicht-schriftliche Form der Instruktionen unterstützt geschichtliches Lernen
+  - Aktive Teilnahme durch gezielte Unterstützung und Instruktion fördern &rarr; [5. Expression & Communication](https://udlguidelines.cast.org/action-expression/expression-communication/)
+  - Bezüge zu eigenem Alltagsleben der SuS herausstellen &rarr; [7.2 Optimize relevance, value, and authenticity](https://udlguidelines.cast.org/engagement/interests-identities/relevance-value-authenticity/)
+
+## Empirische Befunde zum inklusiven Geschichtsunterricht, Folie 2 von 2
+
+- Sprachsensibles Lernen
+  - Sprachliche Komplexität reduzieren &rarr; Richtlinie [2. Language & Symbols](https://udlguidelines.cast.org/representation/language-symbols/)
+  - Sprachverwendung mit geeigneten Maßnahmen wie Scaffolding fördern &rarr; [5.2 Building fluencies with graduated support](https://udlguidelines.cast.org/action-expression/expression-communication/fluencies-practice-performance/)
+- Kritik: vereinfachte Sprache kann aus erkenntnistheoretischer Sicht problematisch sein
+- Möglickeiten
+  - Vereinfachte Sprache in einem gemeinsamen Prozess herstellen &rarr; [2.3 Cultivate understanding ...](https://udlguidelines.cast.org/representation/language-symbols/languages-dialects/)
+  - Alternativen zu Primärquellen bereitstellen &rarr; [1.2 Support multiple ways to perceive information](https://udlguidelines.cast.org/representation/perception/ways-perceive-information/)
+- SuS-zentrierte Methoden
+  - Vorwissen aktivieren &rarr; [3.1 Connect prior knowledge to new learning](https://udlguidelines.cast.org/representation/building-knowledge/prior-knowledge/)
+  - Zentrale Punkte herausarbeiten &rarr; [3.2 Highlight and explore patterns, ...](https://udlguidelines.cast.org/representation/building-knowledge/patterns-features/)
+  - Concept Mapping &rarr; Richtlinie [3. Building Knowledge](https://udlguidelines.cast.org/representation/building-knowledge/)
+  - Fokus auf biographische Aspekte &rarr; [7.2 Optimize relevance ...](https://udlguidelines.cast.org/engagement/interests-identities/relevance-value-authenticity/), [9.2 Develop awareness of self and others](https://udlguidelines.cast.org/engagement/emotional-capacity/awareness/)
+
+## Praxisorientierte Ressourcen
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Emerging America
+
+[![](./assets/emergingamerica_udl.png)](https://www.emergingamerica.org/accessing-inquiry/universal-design){fig-align="center" fig-alt="Zur Startseite des Bereichs Universal Design auf der Webseite des Projekts Emerging America"}
+
+:::
+
+::: {.column width="50%"}
+### California History-Social Science Project
+
+[![](./assets/chssp.png)](https://chssp.ucdavis.edu/blog/universal-design-learning){fig-align="center" fig-alt="Zur Blogseite des California History-Social Science Project zum Thema UDL"}
+
+:::
+
+::::
+
+## Planungshilfen zur Umsetzung des UDL
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### UDL Lesson Design
+
+[![](./assets/udl_lesson_design.png)](https://assets.ctfassets.net/p0qf7j048i0q/7vXo4bBocglQvcdUzeNDmv/ea7f4880d59f6321072b47699085e1d4/StepbystepplannerUDL_Understood.pdf){fig-alt="Zum englischsprachigen PDF-Dokument Step-by-step planner UDL lesson design"}
+
+:::
+
+::: {.column width="50%"}
+### UDL-Grid
+
+[![](./assets/udlgrid.png)](https://drive.google.com/file/d/1-gBk64p92ju9jxSUPF2ETKA67IKm2N3z/view){fig-alt="Zum englischsprachigen PDF-Dokument Inquiry and Primary Source-Based Lesson Plan"}
+:::
+
+::::
+
+
+## UDL-Prinzipien fachlich gesehen
+
+Die drei UDL‑Prinzipien lassen sich fachbezogen zuspitzen:
+
+1. **Multiple Means of Engagement („Warum?“)**  
+   - Anknüpfung an Lebenswelt und Identitäten der SuS (z.B. Familiengeschichten, Migrationsbezüge, lokale Erinnerungsorte).  
+   - [Wahlaufgaben und offene Fragestellungen, die individuelle Zugänge](https://chssp.ucdavis.edu/blog/universal-design-learning) zu einem historischen „Kernkonzept“ (z.B. Macht, Revolution, Migration) erlauben
+
+2. **Multiple Means of Representation („Was?“)**  
+   - Kombination unterschiedlicher Quellengattungen: Text, Bild, Karte, Objekt, Oral History, Audio/Video; sukzessives Vorgehen von konkret → abstrakt.  
+   - Systematische Redundanz im positiven Sinn: [zentrale Inhalte werden in mehreren Modi]((https://www.emergingamerica.org/accessing-inquiry/universal-design)) angeboten, damit Barrieren (Sprache, Lesekompetenz) reduziert werden
+
+3. **Multiple Means of Action & Expression („Wie?“)**  
+   - Alternativen zur klassischen Klassenarbeit: historische Comics, Podcasts, Ausstellungen, inszenierte Debatten, Lernplakate, digitale Storymaps etc.  
+   - Leistungsbewertung, die [prozess- und individuell orientiert∏](https://www.emergingamerica.org/accessing-inquiry/universal-design) ist
+
+## UDL ist ein Prozess
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Reflect: Womit haben die SuS Schwierigkeiten?
+- Identify: Welches Prinzip des UDL kann ich nutzen, um die SuS zu unterstützen?
+- Investigate: Wie kann ich diese Prinzip mit Leben füllen?
+- Teach: Wie passt das Prinzip in mein Veranstaltungskonzept?
+- Re-Assess: Auf welche Weise konnten die SuS Wissen oder Fähigkeiten demonstrieren? 
+- Reflect: Inwiefern hat das Prinzip den Lernerfolg der SuS verbessert?
+
+
+:::
+
+::: {.column width="50%"}
+
+![Quelle: @nelsonDesignDeliverPlanning2014](./assets/planing_llnelson.png){fig-alt="Visualisierung eines sich wiederholenden Prozesses, von oben mittig im Uhrzeigersinn, Reflect, Identify, Investigate, Teach, Re-Assess"}
+
+:::
+
+::::
+
+## Zusammenfassung
+
+1. **UDL + inklusive Geschichtsdidaktik = komplementär.**  
+    UDL liefert den Planungsrahmen, die Geschichtsdidaktik die fachlichen Leitplanken (Kompetenzen, Kernkonzepte, Quellenarbeit).
+2. **Klein anfangen, systematisch weiterentwickeln.**  
+    Ein einzelnes Thema (z.B. „Migration“) bewusst UDL‑orientiert neu designen und Erfahrungen dokumentieren (diagnostisch) statt Komplettreform.
+3. **Inklusion durch fachliche Qualitätsentwicklung.**  
+  Mehrperspektivität, Barrierefreiheit, differenzierte Aufgaben und vielfältige Lernprodukte können die Qualität des Geschichtsunterrichts für alle erhöhen. 
+
+## Literatur
